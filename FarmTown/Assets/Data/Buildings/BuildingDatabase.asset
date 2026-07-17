@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e403192e033a184c806de0524c5386c, type: 3}
+  m_Name: BuildingDatabase
+  m_EditorClassIdentifier: 
+  buildings:
+  - vietnameseName: "L\xF2 b\xE1nh m\u1EF3"
+    englishName: Bakery
+    unlockLevel: 2
+    secondaryUnlockLevel: 11
+    shopIcon: {fileID: 21300000, guid: 31acd5c37b18745439108452f0b0b7fb, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 473b791675d06804c919617977ed9642, type: 3}
+    prefab: {fileID: 1442402904041342, guid: ab2003aa551737b47ae6692095d27916,
+      type: 3}
+  - vietnameseName: "M\xE1y rang"
+    englishName: Roasting machine
+    unlockLevel: 3
+    secondaryUnlockLevel: 15
+    shopIcon: {fileID: 21300000, guid: e23aa146a0ee7214d97a77f391fd2e33, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: d4d71d7f40a30074abdd35735b2a32c2, type: 3}
+    prefab: {fileID: 1301213246500386, guid: 0b176523486ea7d439480f7780c22469,
+      type: 3}
+  - vietnameseName: "Nh\xE0 m\xE1y s\u1EEFa"
+    englishName: Milk factory
+    unlockLevel: 5
+    secondaryUnlockLevel: 23
+    shopIcon: {fileID: 21300000, guid: df3a3e3c9bcdeae4783316db9127a75b, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 1e9e594b08a39284e8a80704daa26fc7, type: 3}
+    prefab: {fileID: 1018153260818908, guid: 1d6fad5cdd978f441b9b28093f0e173c,
+      type: 3}
+  - vietnameseName: "L\xF2 pizza"
+    englishName: Pizza oven
+    unlockLevel: 7
+    secondaryUnlockLevel: 35
+    shopIcon: {fileID: 21300000, guid: 5350f8ecb65ec2144bd321b895f275fc, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: d00bdc78473eacb48bd4f2fa75fdc8e6, type: 3}
+    prefab: {fileID: 1573741363860862, guid: 1fac9fbce1f58b244b4b48ec9bb7a51a,
+      type: 3}
+  - vietnameseName: "L\xF2 b\xE1nh gato"
+    englishName: Oven of gato cake
+    unlockLevel: 10
+    secondaryUnlockLevel: 37
+    shopIcon: {fileID: 21300000, guid: 413288c28da5c344f95de0b30ce9c110, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 59185f1e1e17b42459cbf039e22823d4, type: 3}
+    prefab: {fileID: 1940913288848930, guid: 172c8269d9aad634d86ea50084d42318,
+      type: 3}
+  - vietnameseName: "B\u1EBFp n\u1EA5u soup"
+    englishName: Kitchen cooking soup
+    unlockLevel: 13
+    secondaryUnlockLevel: 39
+    shopIcon: {fileID: 21300000, guid: 7a0927a09cd21e5409826479c97a3c46, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 1c7353aa54fe407439b138cd43c2cc47, type: 3}
+    prefab: {fileID: 1671456238863980, guid: 2a0203ae6efd3cd4f8e83d8d7763175c,
+      type: 3}
+  - vietnameseName: "B\u1EBFp n\u01B0\u1EDBng th\u1ECBt"
+    englishName: Meat grill
+    unlockLevel: 19
+    secondaryUnlockLevel: 41
+    shopIcon: {fileID: 21300000, guid: 6ff953537ef2992409fa95b605c06627, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 8f1e97dc5860b7a4cbd79de5c4e9ff62, type: 3}
+    prefab: {fileID: 1532917349834940, guid: c8a893c6a8b7bfb49944ae1e5da74481,
+      type: 3}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - trung
+  - liem
+  - cua
+  - drag
+  - win
+  - stop
+  - enemy
+  - muikhoan
+  - vongQuay
+  - PlayerPhu
+  - dentuong
+  - duiga
+  - draft
+  - da
+  - mong_house
+  - mong_nha
+  - rootcoin
+  - da1
+  - dungnhamvahoinuoc
+  - mat_dat
+  - Floor
+  - mai_nha
+  - coin
+  - ground
+  - key
+  - dan
+  - Enemy
+  - VaChamDaRoi
+  - chuong
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - vatnuoi
+  - chuong
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: canvas
+    uniqueID: 376935959
+    locked: 0
+  - name: Highest
+    uniqueID: 1794165833
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36be722a28fadcb4cbc4a05b40f1a9f7, type: 3}
+  m_Name: DecorationItemDatabase
+  m_EditorClassIdentifier: 
+  decorationItems:
+  - vietnameseName: "G\u1EA1ch"
+    englishName: Brick
+    usesGems: 0
+    unlockLevel: 4
+    purchasePrice: 30
+    experienceReward: 3
+    shopIcon: {fileID: 21300000, guid: 20874eb69ff949c4aadd1ddc08cbffa7, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 20874eb69ff949c4aadd1ddc08cbffa7, type: 3}
+    prefab: {fileID: 1183124363731206, guid: 72a174cb4cc9fad4d8897a3074793ed8, type: 3}
+  - vietnameseName: "G\u1EA1ch xanh"
+    englishName: Green brick
+    usesGems: 0
+    unlockLevel: 7
+    purchasePrice: 50
+    experienceReward: 4
+    shopIcon: {fileID: 21300000, guid: 51ada40a8381ebc428a1f1a941294827, type: 3}
+    lockedIcon: {fileID: 21300000, guid: fff33643d35250e42bec256da83f588f, type: 3}
+    prefab: {fileID: 1767666865963262, guid: ff3204aeb60fc264ca825e0f0249964b, type: 3}
+  - vietnameseName: "N\u1EC1n \u0111\xE1"
+    englishName: Stone floor
+    usesGems: 0
+    unlockLevel: 8
+    purchasePrice: 65
+    experienceReward: 5
+    shopIcon: {fileID: 21300000, guid: f6938c3ed23923c43a51b72d5be28c9f, type: 3}
+    lockedIcon: {fileID: 21300000, guid: e6b94fdccea2a7b4197363fd80cc9cf6, type: 3}
+    prefab: {fileID: 1219488967142186, guid: f6b19e22c0816e944b3cef2f60081468, type: 3}
+  - vietnameseName: "T\u01B0\u1EDDng d\xE2u"
+    englishName: Strawberry wall
+    usesGems: 0
+    unlockLevel: 10
+    purchasePrice: 95
+    experienceReward: 6
+    shopIcon: {fileID: 21300000, guid: 527efa9152efd584783747fd8730e8d6, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 93b50fb8ea3e05d4eac0ffcf9d99d4c7, type: 3}
+    prefab: {fileID: 1695295461304116, guid: 9366c9ae78c4f0b40b5b9b9421257a40, type: 3}
+  - vietnameseName: "T\u01B0\u1EDDng d\u1EE9a"
+    englishName: Pineapple wall
+    usesGems: 1
+    unlockLevel: 12
+    purchasePrice: 110
+    experienceReward: 7
+    shopIcon: {fileID: 21300000, guid: 338dac93915e3e64f93d5e3d6faa41a3, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 9fb979a3872b1c2469764797ea1a23cd, type: 3}
+    prefab: {fileID: 1248408594534302, guid: 872b68653680261429cc26b18b3fe991, type: 3}
+  - vietnameseName: "T\u01B0\u1EDDng nho"
+    englishName: Grape wall
+    usesGems: 0
+    unlockLevel: 14
+    purchasePrice: 120
+    experienceReward: 8
+    shopIcon: {fileID: 21300000, guid: c4e004c40fda07744a623b4390ff16a9, type: 3}
+    lockedIcon: {fileID: 21300000, guid: a160d8abbf8a6ed4f86f40285167520e, type: 3}
+    prefab: {fileID: 1257981680038362, guid: 0f700458025aefc44874d09b5a5150fc, type: 3}
+  - vietnameseName: "H\xE0ng r\xE0o"
+    englishName: Fence
+    usesGems: 0
+    unlockLevel: 15
+    purchasePrice: 200
+    experienceReward: 9
+    shopIcon: {fileID: 21300000, guid: 8c0e33728d126884fab7f0b3eb4bc9b5, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 8c0e33728d126884fab7f0b3eb4bc9b5, type: 3}
+    prefab: {fileID: 1366574812854422, guid: d82830ae11031a342b879d04b9e243ec, type: 3}
+  - vietnameseName: "T\u01B0\u1EDDng hoa"
+    englishName: Flower wall
+    usesGems: 0
+    unlockLevel: 19
+    purchasePrice: 250
+    experienceReward: 10
+    shopIcon: {fileID: 21300000, guid: fff90ee03322b4141b3f8b641c7ca4af, type: 3}
+    lockedIcon: {fileID: 21300000, guid: d71d8df43a40b22429740b897458c514, type: 3}
+    prefab: {fileID: 1186340078295264, guid: 4597ed9a9e52fc645935f5e386cbae69, type: 3}
+  - vietnameseName: "T\u01B0\u1EDDng \u0111\xE1"
+    englishName: Stone wall
+    usesGems: 0
+    unlockLevel: 20
+    purchasePrice: 280
+    experienceReward: 11
+    shopIcon: {fileID: 21300000, guid: 3f22db436fb06b7449c1c52122a4f5ea, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 5857e3c4a77e6224f832a03665e771c1, type: 3}
+    prefab: {fileID: 1276767918676958, guid: fe3fc3cdaadb47749a5ad28819647412, type: 3}
+  - vietnameseName: "Ch\u1EADu c\xE2y"
+    englishName: Pots
+    usesGems: 0
+    unlockLevel: 22
+    purchasePrice: 320
+    experienceReward: 12
+    shopIcon: {fileID: 21300000, guid: ab4b75d2950656546976b3d12379f28c, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 5db3bc63d9c5b0e488f9052c30d72ff0, type: 3}
+    prefab: {fileID: 1095423374105254, guid: db4154a3581cb0a4fb6d2732d1ba6016, type: 3}
+  - vietnameseName: "B\u1EE5i c\xE2y"
+    englishName: Bush
+    usesGems: 0
+    unlockLevel: 24
+    purchasePrice: 350
+    experienceReward: 13
+    shopIcon: {fileID: 21300000, guid: 8323097841501344a97ec4f40b6a8cf3, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 80b07da899f927b409384c330aa1781d, type: 3}
+    prefab: {fileID: 1400201679540548, guid: acbe40a5533d6844f9af7dfb41ef473f, type: 3}
+  - vietnameseName: "Gh\u1EBF d\u1EF1a"
+    englishName: Elbow chair
+    usesGems: 0
+    unlockLevel: 25
+    purchasePrice: 500
+    experienceReward: 14
+    shopIcon: {fileID: 21300000, guid: 61f602c30065e2a408659b1683f9e37d, type: 3}
+    lockedIcon: {fileID: 21300000, guid: a44a414580447284f9ed912fd0923bcc, type: 3}
+    prefab: {fileID: 1951017074997702, guid: 13b6447c70aae4541bda13b19cd852f5, type: 3}
+  - vietnameseName: "Qu\u1EA7y bar"
+    englishName: Bar
+    usesGems: 1
+    unlockLevel: 27
+    purchasePrice: 1200
+    experienceReward: 15
+    shopIcon: {fileID: 21300000, guid: e2a3d1182cc0fbf47a741a4a6ed900f3, type: 3}
+    lockedIcon: {fileID: 21300000, guid: d490e992265d4f64a86dd2fdac2d49ef, type: 3}
+    prefab: {fileID: 1315312048310716, guid: 07a2d828946cbb8469b12fe34e658b90, type: 3}
+  - vietnameseName: "C\u1ED5ng v\xF2m"
+    englishName: Archway
+    usesGems: 0
+    unlockLevel: 29
+    purchasePrice: 1500
+    experienceReward: 16
+    shopIcon: {fileID: 21300000, guid: 4c1e917e5899f2145bd568c8512e370b, type: 3}
+    lockedIcon: {fileID: 21300000, guid: c78fe98484254374aab2bea828e4577b, type: 3}
+    prefab: {fileID: 1258520227977208, guid: 0c8976480f7f62340acd81e8d1df14e0, type: 3}
+  - vietnameseName: "T\u01B0\u1EE3ng ti\xEAn c\xE1"
+    englishName: Statue of a mermaid
+    usesGems: 1
+    unlockLevel: 31
+    purchasePrice: 700
+    experienceReward: 17
+    shopIcon: {fileID: 21300000, guid: 8cf8653bd230c7143abbe0ab73f7f42b, type: 3}
+    lockedIcon: {fileID: 21300000, guid: cdccb3667f2d60a4bb4f7506a265de8f, type: 3}
+    prefab: {fileID: 1457730249248696, guid: ebffd777b0481d7449d8a0dbb17a78d2, type: 3}
+  - vietnameseName: "Hoa c\xFAc"
+    englishName: Chrysanthemum
+    usesGems: 0
+    unlockLevel: 35
+    purchasePrice: 200
+    experienceReward: 18
+    shopIcon: {fileID: 21300000, guid: 3efb6f5cee0928b4985a830814dab815, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 28dfe57d09dc0ca458c8c6caadab1527, type: 3}
+    prefab: {fileID: 1480146271237888, guid: f848a0bebf8cec34086c6502fa23b50d, type: 3}
+  - vietnameseName: "Hoa \u0111\u1ED3ng ti\u1EC1n"
+    englishName: Gerbera
+    usesGems: 0
+    unlockLevel: 38
+    purchasePrice: 250
+    experienceReward: 19
+    shopIcon: {fileID: 21300000, guid: 9e1fe5a1e38d3cc47b6430ce81835886, type: 3}
+    lockedIcon: {fileID: 21300000, guid: bb5f14531f98fbf4dbbb1673e139227a, type: 3}
+    prefab: {fileID: 1737633727652088, guid: e8a959a4342e0444ca28a7611df7b2b7, type: 3}
+

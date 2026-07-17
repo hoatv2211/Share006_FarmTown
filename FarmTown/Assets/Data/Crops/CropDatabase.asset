@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aec2e9a0c3c40a49b1ceee0f18617e7, type: 3}
+  m_Name: CropDatabase
+  m_EditorClassIdentifier: 
+  crops:
+  - vietnameseName: "L\xFAa m\xEC"
+    englishName: Wheat
+    vietnameseProductName: "L\xFAa m\xEC"
+    englishProductName: Wheat
+    growthSeconds: 60
+    unlockLevel: 1
+    purchasePrice: 1
+    salePrice: 1
+    experienceReward: 1
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: a118834991c5dd943b77bb3353f2be1c, type: 3}
+    growthStage2: {fileID: 21300000, guid: fee1c367a58d4e04da576ffd7b7d2f66, type: 3}
+    growthStage3: {fileID: 21300000, guid: cd1ea7237b9296c4fa5a3ba0e9a165ae, type: 3}
+    productIcon: {fileID: 21300000, guid: 2e36d781b4e849a40b754f9be5cb1e2f, type: 3}
+  - vietnameseName: "Ng\xF4"
+    englishName: Corn
+    vietnameseProductName: "Ng\xF4"
+    englishProductName: Corn
+    growthSeconds: 120
+    unlockLevel: 2
+    purchasePrice: 1
+    salePrice: 3
+    experienceReward: 3
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 70d88b7a9e0bcaf458db4087240b48c5, type: 3}
+    growthStage2: {fileID: 21300000, guid: d3a8b2248da95f2498a56fc800eda99d, type: 3}
+    growthStage3: {fileID: 21300000, guid: e59b1b2e07c45cf4ea86396fc408b1b8, type: 3}
+    productIcon: {fileID: 21300000, guid: 861be2fb83c0006448c22410161695bc, type: 3}
+  - vietnameseName: "Khoai t\xE2y"
+    englishName: Potato
+    vietnameseProductName: "Khoai t\xE2y"
+    englishProductName: Potato
+    growthSeconds: 180
+    unlockLevel: 3
+    purchasePrice: 2
+    salePrice: 5
+    experienceReward: 4
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 64a28ef3b8e941348b8e2b6631fc7032, type: 3}
+    growthStage2: {fileID: 21300000, guid: 7d5689e0097103440b9ab2e2051dd24c, type: 3}
+    growthStage3: {fileID: 21300000, guid: b332882d13c5b9f4f8c8eb0d49d2e39b, type: 3}
+    productIcon: {fileID: 21300000, guid: 6b7f2789f8d9021469d3ef3a42e67d77, type: 3}
+  - vietnameseName: "B\xED ng\xF4"
+    englishName: Pumpkin
+    vietnameseProductName: "B\xED ng\xF4"
+    englishProductName: Pumpkin
+    growthSeconds: 240
+    unlockLevel: 6
+    purchasePrice: 3
+    salePrice: 7
+    experienceReward: 5
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 0984d71737a74744f856b338e2cea724, type: 3}
+    growthStage2: {fileID: 21300000, guid: 70a5994941ea69347b62f29aac3e4841, type: 3}
+    growthStage3: {fileID: 21300000, guid: efb0f129cb73098478a13cb2037b8d0e, type: 3}
+    productIcon: {fileID: 21300000, guid: dbfd7763ec146e2488bf7047d7e21bb6, type: 3}
+  - vietnameseName: "C\xE0 chua"
+    englishName: Tomato
+    vietnameseProductName: "C\xE0 chua"
+    englishProductName: Tomato
+    growthSeconds: 300
+    unlockLevel: 8
+    purchasePrice: 4
+    salePrice: 9
+    experienceReward: 7
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 26077a74c761c2a44b8366d939163b2c, type: 3}
+    growthStage2: {fileID: 21300000, guid: ff087888f88ffed4eb64e0e4280fb9ef, type: 3}
+    growthStage3: {fileID: 21300000, guid: 4ccb1d6399c53aa4ebe265f609443fc5, type: 3}
+    productIcon: {fileID: 21300000, guid: de51ce0876e7ef147b7bf626038c8dc6, type: 3}
+  - vietnameseName: "\u1EDAt"
+    englishName: Chili
+    vietnameseProductName: "\u1EDAt"
+    englishProductName: Chili
+    growthSeconds: 360
+    unlockLevel: 10
+    purchasePrice: 5
+    salePrice: 11
+    experienceReward: 9
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 64741bf9c94e2c54abbd726ec79a67db, type: 3}
+    growthStage2: {fileID: 21300000, guid: 68132b295a9c40e409c8033969a2337f, type: 3}
+    growthStage3: {fileID: 21300000, guid: 3558eb88ed5689f4dacd172c83a90b24, type: 3}
+    productIcon: {fileID: 21300000, guid: 7557ecd1ca1042742bdb40bd6eb6ccd7, type: 3}
+  - vietnameseName: "C\xE0 r\u1ED1t"
+    englishName: Carrot
+    vietnameseProductName: "C\xE0 r\u1ED1t"
+    englishProductName: Carrot
+    growthSeconds: 420
+    unlockLevel: 12
+    purchasePrice: 6
+    salePrice: 13
+    experienceReward: 11
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 54e9cee0d782e304182c9e467fb3ad88, type: 3}
+    growthStage2: {fileID: 21300000, guid: e6def44838ce564479f87c716e3545e9, type: 3}
+    growthStage3: {fileID: 21300000, guid: ee820e088524b214897abb3b0698a8b4, type: 3}
+    productIcon: {fileID: 21300000, guid: a2c4b651bf40ca040aed271ff92dceca, type: 3}
+  - vietnameseName: "H\xE0nh c\u1EE7"
+    englishName: Onion
+    vietnameseProductName: "H\xE0nh c\u1EE7"
+    englishProductName: Onion
+    growthSeconds: 540
+    unlockLevel: 14
+    purchasePrice: 7
+    salePrice: 15
+    experienceReward: 14
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 5b10d01141de0564d96288885a7d2adb, type: 3}
+    growthStage2: {fileID: 21300000, guid: a0237e89c452b9f41901e463b611e87a, type: 3}
+    growthStage3: {fileID: 21300000, guid: de50bf8890d3ea04292f79560e164e89, type: 3}
+    productIcon: {fileID: 21300000, guid: b6e6afb181cbf954d8e19a1cb98db42c, type: 3}
+  - vietnameseName: "C\u1EE7 c\u1EA3i tr\u1EAFng"
+    englishName: Turnip
+    vietnameseProductName: "C\u1EE7 c\u1EA3i tr\u1EAFng"
+    englishProductName: Turnip
+    growthSeconds: 540
+    unlockLevel: 16
+    purchasePrice: 8
+    salePrice: 17
+    experienceReward: 15
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 759dc55081a97f84183f25d11b654dde, type: 3}
+    growthStage2: {fileID: 21300000, guid: 30acdc8a3a7c4544fad51ad30ab75780, type: 3}
+    growthStage3: {fileID: 21300000, guid: 7b4481452116111439f6768a99869bce, type: 3}
+    productIcon: {fileID: 21300000, guid: 4b6662f68f4d8584895ef7eb9982800e, type: 3}
+  - vietnameseName: "C\u1EE7 l\u1EA1c"
+    englishName: Peanut
+    vietnameseProductName: "C\u1EE7 l\u1EA1c"
+    englishProductName: Peanut
+    growthSeconds: 600
+    unlockLevel: 18
+    purchasePrice: 9
+    salePrice: 19
+    experienceReward: 17
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: ea54e3e5b21a9e9488945245aa755236, type: 3}
+    growthStage2: {fileID: 21300000, guid: da0594d95915b5b47b6b83f2f7f4265a, type: 3}
+    growthStage3: {fileID: 21300000, guid: 5ff9e78768d92f14699f39ba66f2ef82, type: 3}
+    productIcon: {fileID: 21300000, guid: 571ce057fa979c243bd33698b8012c17, type: 3}
+  - vietnameseName: "D\xE2u t\u1EB1m"
+    englishName: Mulberry
+    vietnameseProductName: "D\xE2u t\u1EB1m"
+    englishProductName: Mulberry
+    growthSeconds: 660
+    unlockLevel: 20
+    purchasePrice: 10
+    salePrice: 21
+    experienceReward: 22
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: c628ec187a5f1f242989b3c2c68e6288, type: 3}
+    growthStage2: {fileID: 21300000, guid: 3ce8d3df9b6f09846bd06349184f3d32, type: 3}
+    growthStage3: {fileID: 21300000, guid: f18c15fd1d1d1974794f475b747bffb0, type: 3}
+    productIcon: {fileID: 21300000, guid: 1bb57b5135da44e4a8a94f470dfbdea2, type: 3}
+  - vietnameseName: "D\xE2u t\xE2y"
+    englishName: Strawberry
+    vietnameseProductName: "D\xE2u t\xE2y"
+    englishProductName: Strawberry
+    growthSeconds: 660
+    unlockLevel: 22
+    purchasePrice: 11
+    salePrice: 23
+    experienceReward: 24
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 94345039976c27c4bbc1d04dba6abdb3, type: 3}
+    growthStage2: {fileID: 21300000, guid: d598008eb80a9bc40bc22c6623937f77, type: 3}
+    growthStage3: {fileID: 21300000, guid: 375186644f210cf4694926fdc5e8d93c, type: 3}
+    productIcon: {fileID: 21300000, guid: bb503df56a7237d4abaa8fb90928abee, type: 3}
+  - vietnameseName: "\u0110\u1EADu t\u01B0\u01A1ng"
+    englishName: Soybean
+    vietnameseProductName: "\u0110\u1EADu t\u01B0\u01A1ng"
+    englishProductName: Soybean
+    growthSeconds: 780
+    unlockLevel: 24
+    purchasePrice: 12
+    salePrice: 25
+    experienceReward: 25
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 5d0a7ae409f8c18449866140ebcd2c53, type: 3}
+    growthStage2: {fileID: 21300000, guid: 313e84ef14889a040a11de06db5b309d, type: 3}
+    growthStage3: {fileID: 21300000, guid: d4603901d819aea429a2eb6d41fd328c, type: 3}
+    productIcon: {fileID: 21300000, guid: bdd22dbfdbe00c94189f8def79500f38, type: 3}
+  - vietnameseName: "D\u01B0a leo"
+    englishName: Cucumber
+    vietnameseProductName: "D\u01B0a leo"
+    englishProductName: Cucumber
+    growthSeconds: 840
+    unlockLevel: 26
+    purchasePrice: 13
+    salePrice: 27
+    experienceReward: 27
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 7900dba5c33a4f14db7b273d93c85f9a, type: 3}
+    growthStage2: {fileID: 21300000, guid: 57d93b80c87b0784dab96823d7b2d309, type: 3}
+    growthStage3: {fileID: 21300000, guid: 759738d4ab067ae428f2944961d54916, type: 3}
+    productIcon: {fileID: 21300000, guid: 9586514a3caafc84e8bbf4443d5478f8, type: 3}
+  - vietnameseName: "M\xEDa"
+    englishName: Cane
+    vietnameseProductName: "M\xEDa"
+    englishProductName: Cane
+    growthSeconds: 900
+    unlockLevel: 28
+    purchasePrice: 14
+    salePrice: 30
+    experienceReward: 30
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 0400bbd0dd9412047adb72660cf0c8e9, type: 3}
+    growthStage2: {fileID: 21300000, guid: 84470fb6360c1f549b86ed3d53563e73, type: 3}
+    growthStage3: {fileID: 21300000, guid: 3c19378c0f798b446a3b1f28d7b48aee, type: 3}
+    productIcon: {fileID: 21300000, guid: b23131249d16ec04caa2376a3f5b172d, type: 3}
+  - vietnameseName: "C\u1EE7 c\u1EA3i t\xEDm"
+    englishName: Purple radish
+    vietnameseProductName: "C\u1EE7 c\u1EA3i t\xEDm"
+    englishProductName: Purple radish
+    growthSeconds: 960
+    unlockLevel: 30
+    purchasePrice: 15
+    salePrice: 32
+    experienceReward: 35
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 87fe53a0b285ffc438d7b5e8bf22a2bb, type: 3}
+    growthStage2: {fileID: 21300000, guid: 63c0ff30c785c98418ab58e748772f5d, type: 3}
+    growthStage3: {fileID: 21300000, guid: 1919ad2ab07935c479f1641c6e3be3ee, type: 3}
+    productIcon: {fileID: 21300000, guid: 2f7b160d6b579cd46bf1b9f171fa49a9, type: 3}
+  - vietnameseName: "C\u1EA3i th\u1EA3o"
+    englishName: Cabbage
+    vietnameseProductName: "C\u1EA3i th\u1EA3o"
+    englishProductName: Cabbage
+    growthSeconds: 1020
+    unlockLevel: 32
+    purchasePrice: 16
+    salePrice: 35
+    experienceReward: 38
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: c2d2c419de54a5245a4aa51cf667d0d7, type: 3}
+    growthStage2: {fileID: 21300000, guid: 6fcfdb5857bacec41bf6266d15a37129, type: 3}
+    growthStage3: {fileID: 21300000, guid: cb12a338537733d428cb5f6f6366991b, type: 3}
+    productIcon: {fileID: 21300000, guid: b619899734007ad4abf309d6a9a0b226, type: 3}
+  - vietnameseName: "Hoa h\u1ED3ng"
+    englishName: rose
+    vietnameseProductName: "Hoa h\u1ED3ng"
+    englishProductName: rose
+    growthSeconds: 1140
+    unlockLevel: 34
+    purchasePrice: 17
+    salePrice: 38
+    experienceReward: 42
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 918be24299e1b6b4dbd9014fca1ea748, type: 3}
+    growthStage2: {fileID: 21300000, guid: a524a9711133f1542968993c7dadf963, type: 3}
+    growthStage3: {fileID: 21300000, guid: 47b0ea7c1a13bc54eb41aa5f66c9d099, type: 3}
+    productIcon: {fileID: 21300000, guid: 1c215fc3c13ad314fa1d0801d86d78c5, type: 3}
+  - vietnameseName: "Hoa h\u1ED3ng v\xE0ng"
+    englishName: Yellow rose
+    vietnameseProductName: "Hoa h\u1ED3ng v\xE0ng"
+    englishProductName: Yellow rose
+    growthSeconds: 1140
+    unlockLevel: 36
+    purchasePrice: 18
+    salePrice: 42
+    experienceReward: 45
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: fdfdcb5637c4bdd43b1402b6d2036b5c, type: 3}
+    growthStage2: {fileID: 21300000, guid: aedf52f7fb999b84d8a6ac38988fd073, type: 3}
+    growthStage3: {fileID: 21300000, guid: a5cbf8b2ccfb69b4e824dd6deb5b2013, type: 3}
+    productIcon: {fileID: 21300000, guid: 1b8f5a992b142244eaa50335555de7d7, type: 3}
+  - vietnameseName: Hoa blue
+    englishName: Blue flowers
+    vietnameseProductName: Hoa blue
+    englishProductName: Blue flowers
+    growthSeconds: 1200
+    unlockLevel: 38
+    purchasePrice: 19
+    salePrice: 45
+    experienceReward: 50
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 5139f693489a2be489794ad64c20cf3b, type: 3}
+    growthStage2: {fileID: 21300000, guid: abef67d936e97654bbe57fd6ea619952, type: 3}
+    growthStage3: {fileID: 21300000, guid: d738ff587ed81c14d91b7d545ab2d106, type: 3}
+    productIcon: {fileID: 21300000, guid: a294718e9a142f54189ad2137f1be0e0, type: 3}
+  - vietnameseName: "Hoa o\u1EA3i h\u01B0\u01A1ng"
+    englishName: lavender
+    vietnameseProductName: "Hoa o\u1EA3i h\u01B0\u01A1ng"
+    englishProductName: lavender
+    growthSeconds: 1200
+    unlockLevel: 40
+    purchasePrice: 20
+    salePrice: 50
+    experienceReward: 54
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 254e43cfbd8b98848a643657b4fab865, type: 3}
+    growthStage2: {fileID: 21300000, guid: ec6a39a358364c34c9dae3f88a3cafae, type: 3}
+    growthStage3: {fileID: 21300000, guid: 6e0f96491799a954a99767e4164646b8, type: 3}
+    productIcon: {fileID: 21300000, guid: 43bcf7b7d7ba7c54893870396f7ef5c2, type: 3}
+  - vietnameseName: "D\u01B0a h\u1EA5u"
+    englishName: Watermelon
+    vietnameseProductName: "D\u01B0a h\u1EA5u"
+    englishProductName: Watermelon
+    growthSeconds: 1260
+    unlockLevel: 42
+    purchasePrice: 21
+    salePrice: 65
+    experienceReward: 70
+    harvestYield: 2
+    growthStage1: {fileID: 21300000, guid: 82fe570e1943b244e8c7cde7ac8370a4, type: 3}
+    growthStage2: {fileID: 21300000, guid: 48f665b4c164f3149913bddc34d451e3, type: 3}
+    growthStage3: {fileID: 21300000, guid: 44949cc8d50b38043a4a2b7a776c5acf, type: 3}
+    productIcon: {fileID: 21300000, guid: 26e2eff61f92345448ace97c362b8c48, type: 3}

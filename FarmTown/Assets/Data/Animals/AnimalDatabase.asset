@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60470d7c7751d90448354e69ad29a5c8, type: 3}
+  m_Name: AnimalDatabase
+  m_EditorClassIdentifier: 
+  animals:
+  - vietnameseName: "G\xE0 si\xEAu tr\u1EE9ng"
+    englishName: Super egg chicken
+    vietnameseProductName: "Tr\u1EE9ng g\xE0"
+    englishProductName: Egg
+    productionSeconds: 180
+    animalUnlockLevel: 2
+    secondPenUnlockLevel: 9
+    animalPurchasePrice: 20
+    penPurchasePrice: 200
+    productSalePrice: 15
+    experienceReward: 5
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: e4fd9d619e591144cbed56a042fbc46c, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 0a358402652c6b74e829b04cb4a74504, type: 3}
+    productIcon: {fileID: 21300000, guid: 0824da87cf780b74b90e5879a9319919, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng g\xE0"
+    englishPenName: Henhouse
+    penIcon: {fileID: 21300000, guid: 93a79bcb266fa6b4abe346b546e8609a, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: c796f28d0e8c1b64bb61b166e877c109, type: 3}
+    penPrefab: {fileID: 1054100800900948, guid: 3b51724a286813a4abb7fbd4c537d148, type: 3}
+  - vietnameseName: "B\xF2 si\xEAu s\u1EEFa"
+    englishName: Super milk cows
+    vietnameseProductName: "S\u1EEFa b\xF2"
+    englishProductName: Dairy cows
+    productionSeconds: 300
+    animalUnlockLevel: 5
+    secondPenUnlockLevel: 11
+    animalPurchasePrice: 45
+    penPurchasePrice: 450
+    productSalePrice: 25
+    experienceReward: 7
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: 7e3418f3c739ac74baa7da4151c73752, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: d41f70ea06f392645bdde0a0d7893c88, type: 3}
+    productIcon: {fileID: 21300000, guid: d57e20cd9bc26224d9063c19c66bffec, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng b\xF2"
+    englishPenName: Byre
+    penIcon: {fileID: 21300000, guid: 832e2df46b6e3804bb7b6ea75fe6b827, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 6424ada4c9e9b6546b10be6f9987cf0e, type: 3}
+    penPrefab: {fileID: 1265652786631772, guid: 8a77676f0a0e86441970e70c48d96974, type: 3}
+  - vietnameseName: "V\u1ECBt b\u1EA7u"
+    englishName: Duck
+    vietnameseProductName: "Tr\u1EE9ng v\u1ECBt"
+    englishProductName: Duck's egg
+    productionSeconds: 400
+    animalUnlockLevel: 6
+    secondPenUnlockLevel: 14
+    animalPurchasePrice: 50
+    penPurchasePrice: 580
+    productSalePrice: 40
+    experienceReward: 35
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: 4a0b26b2ddb5f3f44a7d74f78a7c7e33, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: e8d4a258843dd974ea4323f3f9088e6b, type: 3}
+    productIcon: {fileID: 21300000, guid: bb66a803cceeac04c89b079754990bd9, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng v\u1ECBt"
+    englishPenName: Duckweed
+    penIcon: {fileID: 21300000, guid: 090ab98f33c35b043a80c926faec3f64, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 2f166eea1e0f7b64a85934126c4918a2, type: 3}
+    penPrefab: {fileID: 1233025136294184, guid: 7226585c080f69b47a9557fc9752d66c, type: 3}
+  - vietnameseName: "L\u1EE3n si\xEAu n\u1EA1c"
+    englishName: Super lean pig
+    vietnameseProductName: "Th\u1ECBt l\u1EE3n"
+    englishProductName: Pork
+    productionSeconds: 900
+    animalUnlockLevel: 13
+    secondPenUnlockLevel: 21
+    animalPurchasePrice: 70
+    penPurchasePrice: 700
+    productSalePrice: 40
+    experienceReward: 15
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: bcb36738bd7656f41a41eb196d570fdb, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: ea4dc33b8a3008548938da49b1cd5089, type: 3}
+    productIcon: {fileID: 21300000, guid: 11536b8bffd75bb4581876a0cd5c7fda, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng l\u1EE3n"
+    englishPenName: Pigsty
+    penIcon: {fileID: 21300000, guid: 487a00f1343346a48ab993a2a54d8c81, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 5960b063ee6518d469d076c7363bfd6e, type: 3}
+    penPrefab: {fileID: 1384068709469150, guid: dd26f6dc9ac02f94b816326a25f61c22, type: 3}
+  - vietnameseName: "C\u1EEBu si\xEAu l\xF4ng"
+    englishName: Super hair sheep
+    vietnameseProductName: "L\xF4ng c\u1EEBu"
+    englishProductName: Fleece
+    productionSeconds: 1200
+    animalUnlockLevel: 17
+    secondPenUnlockLevel: 33
+    animalPurchasePrice: 100
+    penPurchasePrice: 1000
+    productSalePrice: 50
+    experienceReward: 20
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: d312ad50c56c5094face6297eae96db2, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: ed9d5c6e7bfbaef47bf19814c65bd1eb, type: 3}
+    productIcon: {fileID: 21300000, guid: 184f39d31f5979a448945f8cf4b2eac4, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng c\u1EEBu"
+    englishPenName: Sheep shed
+    penIcon: {fileID: 21300000, guid: cb0688ee97c2d5449a63a630458bf395, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 0f04b249bd5e80e49ad18ac945adf6dd, type: 3}
+    penPrefab: {fileID: 1621180857624624, guid: 74c961efff745ef449a5a6e3c803e103, type: 3}
+  - vietnameseName: "Tr\xE2u Ch\u1ECDi"
+    englishName: Buffalo
+    vietnameseProductName: "Th\u1ECBt tr\xE2u"
+    englishProductName: Buffalo meat
+    productionSeconds: 1300
+    animalUnlockLevel: 19
+    secondPenUnlockLevel: 29
+    animalPurchasePrice: 130
+    penPurchasePrice: 1100
+    productSalePrice: 100
+    experienceReward: 25
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: bb4e874541b8d77488a59357ec5c113b, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: 57f9d4fd537a9ba43ba30f6e6ab94855, type: 3}
+    productIcon: {fileID: 21300000, guid: 421f2d804e0dc3f4c866c337a785b12d, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng tr\xE2u"
+    englishPenName: Barn
+    penIcon: {fileID: 21300000, guid: 5a9d29bf3293a3c4b918b02b9680a29d, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 2218a30c7f73f3746b7b69f1b3c4c4f4, type: 3}
+    penPrefab: {fileID: 1719260003529266, guid: e72db0d208fa6ef47b8b3f221b26e19c, type: 3}
+  - vietnameseName: "D\xEA n\xFAi"
+    englishName: Mountain goat
+    vietnameseProductName: "S\u1EEFa d\xEA"
+    englishProductName: Goat milk
+    productionSeconds: 1400
+    animalUnlockLevel: 25
+    secondPenUnlockLevel: 38
+    animalPurchasePrice: 150
+    penPurchasePrice: 1300
+    productSalePrice: 120
+    experienceReward: 30
+    productYield: 1
+    shopIcon: {fileID: 21300000, guid: d9dd1e4a3b78c64429a5995e4a8d45bc, type: 3}
+    lockedShopIcon: {fileID: 21300000, guid: edbba451f22e0494382be52121873fe5, type: 3}
+    productIcon: {fileID: 21300000, guid: a92554ec7f6cfc3438fabb3271c7c231, type: 3}
+    vietnamesePenName: "Chu\u1ED3ng d\xEA"
+    englishPenName: Goat barn
+    penIcon: {fileID: 21300000, guid: 60e56ace7b7cf384d89adc065263dc63, type: 3}
+    lockedPenIcon: {fileID: 21300000, guid: 28262fc94bf453342b2d785273a6905a, type: 3}
+    penPrefab: {fileID: 1804714974486160, guid: 1baf87cbe18dff347812425486d213d1, type: 3}

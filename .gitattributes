@@ -1,0 +1,42 @@
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+*.compute text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.uxml text eol=lf
+*.uss text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.meta text eol=lf
+*.lighting text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.dll binary
+*.aar binary
+*.jar binary
+*.rar binary
+
+FarmTown/Assets/GoogleMobileAds/** -text
+FarmTown/Assets/Spine/** -text
+FarmTown/Assets/Mini_Game/** -text
+
+# Legacy binary Unity project setting
+FarmTown/ProjectSettings/NetworkManager.asset -text
